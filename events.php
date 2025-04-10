@@ -7,13 +7,7 @@ include('./include/head.php');
   <div class="banner-wrapper position-relative z-1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-1">
-          <ul class="social-links d-flex flex-column row-gap-20">
-            <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
+      <?php include('./include/social-links.php'); ?>
         <div class="col-lg-6">
           <div class="card">
             <div class="shape-1"></div>
@@ -23,10 +17,15 @@ include('./include/head.php');
           </div>
         </div>
       </div>
+      <a href="#sec-1" class="">
+        <div class="top-to-bottom">
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </a>
     </div>
   </div>
 </section>
-<section class="event-sec pt-100">
+<section class="event-sec pt-100" id="sec-1">
   <div class="container">
     <h2 class="hd-70 heading text-primary-theme mb-20 text-center mb-100">Join us at an <span>SCVBA event!</span></h2>
 
@@ -60,7 +59,7 @@ include('./include/head.php');
     <p class="hd-20 fw-bold mb-60 text-center">
     Previous:
     </p>
-    <div class="row">
+    <div class="row row-gap-40 ">
       <div class="col-lg-6">
         <div class="card-lg text-center">
             <h3 class="hd-20 text-white mb-30">Fall 2024 Membership & Networking Event</h3>

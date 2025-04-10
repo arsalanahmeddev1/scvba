@@ -24,7 +24,7 @@
                 <li class="nav-item"><a class="navs" href="./coming-soon.php">Directory</a></li>
                 <li class="nav-item"><a class="navs" href="./registration.php">Registration</a></li>
                 <li class="nav-item"><a class="navs" href="./events.php">Events</a></li>
-                <li class="nav-item"><a class="navs" href="./project-hub.php">Project Hub</a></li>
+                <li class="nav-item"><a class="navs" href="./coming-soon.php">Project Hub</a></li>
                 <li class="nav-item"><a class="navs" href="./contact.php">Contact</a></li>
               </ul>
             </div>

@@ -7,14 +7,8 @@ include('./include/head.php');
   <div class="banner-wrapper position-relative z-1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2">
-          <ul class="social-links d-flex flex-column row-gap-20">
-            <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-lg-5">
+      <?php include('./include/social-links.php'); ?>
+        <div class="col-lg-6 col-xl-5">
           <div class="card">
             <div class="shape-1"></div>
             <h1 class="hd-70">
@@ -23,10 +17,15 @@ include('./include/head.php');
           </div>
         </div>
       </div>
+      <a href="#sec-1" class="">
+        <div class="top-to-bottom">
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </a>
     </div>
   </div>
 </section>
-<section class="who-we-are py-70">
+<section class="who-we-are py-70" id="sec-1">
   <div class="container">
     <div class="row row-gap-40 align-items-center">
       <div class="col-lg-6">

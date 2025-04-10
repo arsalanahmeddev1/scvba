@@ -7,28 +7,27 @@ include('./include/head.php');
   <div class="banner-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2">
-          <ul class="social-links d-flex flex-column row-gap-20">
-            <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
+        <?php include('./include/social-links.php'); ?>
         <div class="col-lg-8">
           <div class="card">
             <div class="shape-1"></div>
-            <p class="fw-700 fs-30 text-white text-uppercase">
+            <h1 class="fw-700 fs-30 text-white text-uppercase">
               We are South-Central Virginia businesses creating jobs,
               promoting local business owners and workers, and
               knocking down barriers to economic opportunity.
-            </p>
+            </h1>
           </div>
         </div>
       </div>
+      <a href="#sec-1" class="">
+        <div class="top-to-bottom">
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </a>
     </div>
   </div>
 </section>
-<section class="who-we-are py-70">
+<section class="who-we-are py-70" id="sec-1">
   <div class="container">
     <div class="row row-gap-70">
       <div class="col-lg-6">
@@ -60,7 +59,7 @@ include('./include/head.php');
 </section>
 <section class="sec-3">
   <div class="container-flid">
-    <div class="row">
+    <div class="row row-gap-40">
       <div class="col-lg-8">
         <img src="./assets/images/welcome.png" class="h-100 object-fit-cover" alt="">
       </div>

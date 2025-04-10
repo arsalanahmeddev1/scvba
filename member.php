@@ -7,13 +7,7 @@ include('./include/head.php');
   <div class="banner-wrapper position-relative z-1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-1">
-          <ul class="social-links d-flex flex-column row-gap-20">
-            <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="javascript:;"><i class="fa-brands fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
+      <?php include('./include/social-links.php'); ?>
         <div class="col-lg-5">
           <div class="card" style="max-width: 100%;">
             <div class="shape-1"></div>
@@ -23,10 +17,15 @@ include('./include/head.php');
           </div>
         </div>
       </div>
+      <a href="#sec-1" class="">
+        <div class="top-to-bottom">
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </a>
     </div>
   </div>
 </section>
-<section class="member-page-sec pt-150">
+<section class="member-page-sec pt-150" id="sec-1">
   <div class="container">
     <h2 class="hd-70 heading mb-20 text-center">
       <span class="text-primary-theme text-center text-capitalize">Member</span> <span>Directory</span>

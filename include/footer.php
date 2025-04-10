@@ -1,4 +1,9 @@
-<section class="form-sec">
+<section class="form-sec position-relative">
+<a class="scroll-to-top" href="javascript:;">
+    <div class="top-to-bottom bottom-to-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+  </a>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10">
@@ -7,25 +12,25 @@
           <div class="form-wrapper mb-80 position-relative">
             <div class="shape-1"></div>
             <div class="form-content">
-            <h5 class="hd-24 text-white text-center">Get in Touch</h5>
-            <h4 class="hd-55 text-white text-uppercase text-center mb-20">Send us a Message</h4>
+              <h5 class="hd-24 text-white text-center">Get in Touch</h5>
+              <h4 class="hd-55 text-white text-uppercase text-center mb-20">Send us a Message</h4>
               <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="field-wrap">
                     <input type="text" class="input-field" name="name" id="name" placeholder="Name">
                   </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="field-wrap">
                     <input type="text" class="input-field" name="phone" id="phone" placeholder="Phone">
                   </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="field-wrap">
                     <input type="text" class="input-field" name="email" id="email" placeholder="Email">
                   </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-6">
                   <div class="field-wrap">
                     <select name="chose_services" class="input-field form-select" id="chose_services">
                       <option value="" selected>Chose Services</option>
@@ -33,9 +38,13 @@
                       <option value="">Chose Services</option>
                     </select>
                   </div>
+                </div>
+                <div class="col-lg-12">
                   <div class="field-wrap">
                     <textarea name="message" class="input-field text-area" id="message" placeholder="Message"></textarea>
                   </div>
+                </div>
+                <div class="col-lg-12">
                   <button class="btn btn-primary mx-auto d-flex justify-content-center text-capitalize" type="submit">Send Now</button>
                 </div>
               </div>
@@ -46,17 +55,17 @@
     </div>
   </div>
 </section>
-<footer class="footer">
+<footer class="footer position-relative">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row row-gap-30 justify-content-center">
       <div class="col-lg-3">
         <div class="card bg-white radius-10 mb-10" style="max-width: 22rem;">
           <img src="./assets/images/logo.png" class="footer-logo" alt="footer-logo">
         </div>
         <p class="fs-18 text-white fw-500">
           Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore
-          eu fugiat nulla pariatur.
+          in <br> voluptate velit esse cillum dolore
+          eu <br> fugiat nulla pariatur.
         </p>
       </div>
       <div class="col-lg-2">
@@ -86,8 +95,8 @@
         </a>
       </div>
       <div class="col-lg-3">
-        <h4 class="hd-24 mb-15 fw-bold text-center text-white">Social Networks</h4>
-        <ul class="social-links justify-content-center d-flex align-items-center gap-20">
+        <h4 class="hd-24 mb-15 fw-bold text-start text-lg-center text-white">Social Networks</h4>
+        <ul class="social-links justify-content-start justify-content-lg-center d-flex align-items-center gap-20">
           <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
           <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
           <li><a href="javascript:;"><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -95,7 +104,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-bottom py-20">
+  <div class="footer-bottom mt-30 mt-lg-0 py-20">
     <p class="text-white fs-16 fw-500 text-center">Copyright 2024, All Rights Reserved.</p>
   </div>
 </footer>
