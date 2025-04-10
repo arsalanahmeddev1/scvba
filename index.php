@@ -7,7 +7,7 @@ include('./include/head.php');
   <div class="banner-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-lg-1">
+        <div class="col-lg-2">
           <ul class="social-links d-flex flex-column row-gap-20">
             <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
             <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -62,7 +62,7 @@ include('./include/head.php');
   <div class="container-flid">
     <div class="row">
       <div class="col-lg-8">
-        <img src="./assets/images/welcome.png" class="" alt="">
+        <img src="./assets/images/welcome.png" class="h-100 object-fit-cover" alt="">
       </div>
       <div class="col-lg-4">
         <h3 class="hd-55 text-white text-uppercase mb-30">Alliance Area</h3>

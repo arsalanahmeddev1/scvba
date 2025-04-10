@@ -85,8 +85,8 @@
             Fort Myers, FL 33908</span>
         </a>
       </div>
-      <div class="col-lg-2">
-        <h4 class="hd-24 mb-15 fw-bold text-white">Social Networks</h4>
+      <div class="col-lg-3">
+        <h4 class="hd-24 mb-15 fw-bold text-center text-white">Social Networks</h4>
         <ul class="social-links justify-content-center d-flex align-items-center gap-20">
           <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
           <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>

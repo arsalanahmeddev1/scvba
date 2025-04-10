@@ -7,7 +7,7 @@ include('./include/head.php');
   <div class="banner-wrapper position-relative z-1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-1">
+        <div class="col-lg-2">
           <ul class="social-links d-flex flex-column row-gap-20">
             <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
             <li><a href="javascript:;"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -144,7 +144,7 @@ include('./include/head.php');
       <div class="card-container">
         <div class="card-wrapper text-center">
           <div class="card-img-wrapper mb-20">
-            <img src="./assets/images/profile-01.png" alt="Team Profile">
+            <img src="./assets/images/profile-02.png" alt="Team Profile">
           </div>
           <h3 class="hd-42 fw-semibold">John Smith</h3>
           <span class="hd-20 fw-normal">Director of Business Development</span>
@@ -153,7 +153,7 @@ include('./include/head.php');
       <div class="card-container">
         <div class="card-wrapper text-center">
           <div class="card-img-wrapper mb-20">
-            <img src="./assets/images/profile-01.png" alt="Team Profile">
+            <img src="./assets/images/profile-03.png" alt="Team Profile">
           </div>
           <h3 class="hd-42 fw-semibold">Mary Johnson</h3>
           <span class="hd-20 fw-normal">Community Engagement Manager</span>
@@ -162,7 +162,7 @@ include('./include/head.php');
       <div class="card-container">
         <div class="card-wrapper text-center">
           <div class="card-img-wrapper mb-20">
-            <img src="./assets/images/profile-01.png" alt="Team Profile">
+            <img src="./assets/images/profile-04.png" alt="Team Profile">
           </div>
           <h3 class="hd-42 fw-semibold">David Brown</h3>
           <span class="hd-20 fw-normal">Financial Officer</span>
